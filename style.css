@@ -4179,37 +4179,61 @@ p {
   }
 }
 
-.img-1{
+.img-1 {
   top: 120px;
   left: 15px;
 }
 
-.img-2{
+.img-2 {
   top: 120px;
   right: 15px;
   animation-delay: .5s;
 }
 
-.img-3{
+.img-3 {
   bottom: 120px;
   left: 15px;
   animation-delay: 1s;
 }
 
-.img-4{
+.img-4 {
   bottom: 120px;
   right: 15px;
   animation-delay: 2s;
 }
 
-.a33{
+.a33 {
   font-size: 24px;
 }
 
-.overflow-hidden{
+.overflow-hidden {
   overflow: hidden;
 }
 
-.cuia img{
+.cuia img {
   width: 100%;
+}
+
+.letras-estranhas {
+  font-weight: 900;
+  color: #0000;
+  background: linear-gradient(to left, #a104ad, #0b2be0, #329941, #f7f658, #f16412, #e92153, #aa04a7);
+  -webkit-text-fill-color: #0000;
+  -webkit-text-stroke: 0.016em #eaeaea;
+  -webkit-background-clip: text;
+  background-clip: text;
+  letter-spacing: 0.1rem;
+  font-size: 30px;
+}
+
+.letras-estranhas-2 {
+  font-family: Impact, sans-serif;
+  color: #0000;
+  background: linear-gradient(to bottom left, #fee601, #fee601 15%, #fe4201);
+  -webkit-text-fill-color: #0000;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: scaleY(1.5) skewY(-8deg) rotateZ(-1deg) translateZ(0) translateY(-85px);
+  font-size: 20px;
+  display: block;
 }
